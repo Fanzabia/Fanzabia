@@ -39,7 +39,7 @@ bot.on('message', message => {
      .setColor('#4ECA91')
      .setThumbnail(message.author.avatarURL)
      .addField("Pseudo : " + message.author.username, "Discriminateur : #" + message.author.discriminator)
-     .addField("ID : "+ message.author.id, "")
+     .addField("ID : "+ message.author.id,)
      .setFooter("Vous aussi découvrez vos stats avec /stats")
    message.channel.sendEmbed(stats_embed);
     console.log("Commande bvn demandée !"); 
